@@ -1,0 +1,472 @@
+body {
+    margin: 0 auto; /*centrar a finestra*/
+    font-family: verdana;
+    color: #888888;
+    width: 1190px;
+    }
+    
+    h1 {
+    font-size: 35px;
+    color: #00747F;
+    }
+    
+    h2 {
+    font-size: 30px;
+    color: #40BAC5;
+    }
+    
+    h3 {
+    font-size: 17px;
+    color: #00747F;
+    }
+    
+    h4 {
+    font-size: 17px;
+    color: #233A59;
+    }
+    
+    p {
+    font-size: 14px;
+    }
+    
+    .blau {
+    color: #00747F;
+    }
+    
+    .negreta {
+    font-weight: bold;
+    }
+    
+    .small {
+    font-size: 11px;
+    }
+    
+    ul {
+    list-style-type: none;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    #container {
+    width: 1190px;
+    }
+    
+    /*cabecera*/
+    
+    img.logo {
+    width: 400px;
+    padding: 5px 0 0 0;
+    }
+    
+    #logotip {
+    float: left;
+    height: 120px;
+    width: 590px; /*amplada contenidor logotip*/
+    }
+    
+    #reg {
+    float: right;
+    width: 590px;
+    height: 20px;
+    }
+    
+    #menu_arriba {
+    float: right;
+    width: 590px; /*amplada menú principal*/
+    height: 45px;
+    margin-top: 55px;
+    }
+    
+    #titol {
+    clear: left;
+    float: left;
+    }
+    
+    .linia {
+    clear: both;
+    border: solid #888888 1px;
+    width: 1190px;
+    }
+    
+    /*menus*/
+    
+    #nav2 {
+    clear: left;
+    float: left;
+    width: 690px; /*amplada menú navegació 2*/
+    height: 40px;
+    }
+    
+    #idi {
+    float: right;
+    width: 490px; /*amplada contenidor idioma*/
+    height: 35px;
+    padding: 0 0 5px 0;
+    margin-bottom: 5px;
+    }
+    
+    ul.menu1{
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul.menu2{
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul.menu3{
+    margin: 0;
+    padding: 0;
+    }
+    
+    li.m1 {
+    display: inline;
+    }
+    
+    li.m2 {
+    display: inline;
+    }
+    
+    li.m3 {
+    display: inline;
+    }
+    
+    .m1 a {
+    float: right;
+    padding: 10px;
+    margin-left: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    background: #F2F2F2;
+    width: 90px;
+    }
+    
+    .m2 a {
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: gray;
+    background: #F2F2F2;
+    }
+    
+    .m3 a {
+    float: right;
+    padding: 5px;
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    background: #F2F2F2;
+    }
+    
+    .m1 a:hover {
+    color: black;
+    background: gray;
+    }
+    
+    .m1 a:active {
+    color: black;
+    background: gray;
+    }
+    
+    .m2 a:hover {
+    color: black;
+    background: gray;
+    }
+    
+    .m2 a:active {
+    color: black;
+    background: gray;
+    }
+    
+    .m3 a:hover {
+    color: black;
+    background: gray;
+    }
+    
+    .m3 a:active {
+    color: black;
+    background: gray;
+    }
+    
+    .menu1 {
+    width: 590px;
+    }
+    
+    .idioma {
+    float: left;
+    text-align: right;
+    padding: 0 0 0 350px;
+    }
+    
+    .registre a{
+    float: right;
+    font-weight: bold;
+    text-align: right;
+    color: gray;
+    margin: 0 0 0 25px;
+    }
+    
+    .registre a:hover{
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    }
+    
+    /*columna esquerra*/
+    
+    #left_container {
+    float: left;
+    width: 890px; /*amplada contenidor esquerra*/
+    }
+    
+    #left_container a{
+    color: #00747F;
+    }
+    
+    .program {
+    float: left;
+    width: 890px; /*amplada programa*/
+    }
+    
+    .float_imatge { /*imatge tendes de campanya*/
+    float: right;
+    width: 200px;
+    margin-left: 10px;
+    }
+    
+    .que {
+    float: left;
+    width: 490px;
+    }
+    
+    .horari {
+    float: left;
+    width: 390px;
+    }
+    
+    .espais {
+    clear: left;
+    float: left;
+    width: 890px;
+    }
+    
+    .peu_left {
+    clear: left;
+    padding: 10px 0 0 0;
+    }
+    
+    /*caixes*/
+    
+    #caixes { /*contenidor caixes de colors*/
+    clear: left;
+    float: left;
+    width: 890px;
+    }
+    
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6,.caixa7, .caixa8, .caixa9, .caixa10 {
+    float: left;
+    width: 255px;
+    height: 230px;
+    padding: 1px 15px 2px 20px;
+    line-height: 1.5em;
+    }
+    
+    .caixa1, .caixa5, .caixa9 {
+    background: #FFD9D4;
+    }
+    
+    .caixa2, .caixa6, .caixa10 {
+    background: #DDEFAA;
+    }
+    
+    .caixa3, .caixa7 {
+    background: #FEFBC2;
+    }
+    
+    .caixa4, .caixa8{
+    background: #99DBE7;
+    }
+    
+    .caixa2, .caixa3, .caixa5, .caixa6, .caixa8, .caixa9 {
+    margin-left: 10px;
+    }
+    
+    .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10 {
+    margin-top: 10px;
+    }
+    
+    /*columna dreta*/
+    
+    #right_container {
+    float: right;
+    width: 290px; /*amplada columna dreta*/
+    }
+    
+    .quadre_blau {
+    background: #99CDFF;
+    Text-align: center;
+    height: 90px;
+    }
+    
+    a.boto_horari {
+    float: left;
+    background: #8BCF68;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 80px;
+    margin: 10px 30px;
+    }
+    
+    .boto_horari:hover {
+    background: #ABF6A3;
+    }
+    
+    .quadre_gris {
+    background: #F0F1F1;
+    font-size: 14px;
+    height: 480px;
+    }
+    
+    .llista_amb_imatges {
+    padding: 20px 0 20px 10px;
+    }
+    
+    .llista_amb_imatges img {
+    float: left;
+    width: 50px;
+    margin: 0 10px 7px 0;
+    }
+    
+    .llista_amb_imatges li {
+    float: right;
+    margin: 0 10px 20px 0;
+    }
+    
+    .quadre_groc {
+    background: #FEFBC2;
+    padding: 10px 20px;
+    margin: 15px 0 10px 0;
+    }
+    
+    .icona_llista {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+    
+    .titol_vermell {
+    font-size: x-large;
+    font-weight: bold;
+    color: #950000;
+    }
+    
+    li.llista { 
+    font-size: 14px;
+    color: black;
+    list-style-type: none;
+    display: block;
+    }
+    
+    /*botons Identi.ca i Twitter*/
+    
+    #identica {
+    background: #7DB4C9;
+    }
+    
+    #twitter {
+    background: #00BCFF;
+    }
+    
+    #identica, #twitter {
+    width: 240px;
+    height: 50px;
+    margin: 5px 24px;
+    text-align: center;
+    color: white;
+    }
+    
+    .identica_icon, .twitter_icon{
+    float: left;
+    margin: 5px 0 5px 20px;
+    }
+    
+    p.identica_text, p.twitter_text{
+    padding: 15px 0 0 0;
+    }
+    
+    .identica_text a, .twitter_text a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: -40px;
+    }
+    
+    #identica:hover{
+    background: #A2DFF6;
+    }
+    
+    #twitter:hover{
+    background: #83D7F5;
+    }
+    
+    /*peu*/
+    
+    #peu {
+    clear: both;
+    height: 100px;
+    margin: 0 auto;
+    background: #7A7771;
+    }
+    
+    #menu_peu {
+    float: left;
+    }
+    
+    a.marge {
+    margin: 0 0 0 15px;
+    }
+    
+    .menu_peu1, .menu_peu2, .menu_peu3, .menu_peu4 {
+    float: left;
+    margin: 10px 20px;
+    }
+    
+    .menu_peu1 a, .menu_peu2 a, .menu_peu3 a, .menu_peu4 a{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    }
+    
+    #llicencia {
+    float: right;
+    width: 350px;
+    text-align: right;
+    }
+    
+    #llicencia p{
+    font-size: 10px;
+    color: black;
+    padding: 5px 15px 60px 0;
+    }
+    
+    #llicencia a{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    }
+    
+    .icona {
+    width: 15px;
+    }
+    
+    
+    
